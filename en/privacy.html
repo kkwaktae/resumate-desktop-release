@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Resumate</title>
+  <meta name="description" content="Privacy Policy for the Resumate desktop app and its website.">
+  <meta name="theme-color" content="#f5f3ee">
+  <meta name="color-scheme" content="light">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Privacy Policy — Resumate">
+  <meta property="og:description" content="What Resumate stores, where it stores it, and where it sends it.">
+  <link rel="alternate" hreflang="ko" href="../privacy.html">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="../index.html" aria-label="Resumate home">
+        <img src="../assets/icon-256.png" alt="" width="28" height="28">
+        Resumate
+      </a>
+      <nav class="topnav" aria-label="Main">
+        <a class="lang-switch topnav-cta" href="../privacy.html" hreflang="ko" lang="ko">한국어</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="doc">
+    <div class="wrap">
+      <h1>Privacy Policy</h1>
+      <p class="meta">Effective November 4, 2026 · Operated by KWAK TAEHOON</p>
+
+      <section class="summary" aria-labelledby="summary-title">
+        <h2 id="summary-title">At a glance</h2>
+        <ul>
+          <li>The operator has no sign-up and runs no server that receives your resumes, conversations, or files.</li>
+          <li>What you create in the app is stored <strong>on your own computer</strong>.</li>
+          <li>When you use AI features, the material needed for the request is sent to Anthropic (United States) <strong>through your own Claude Code account</strong>.</li>
+          <li>Voice-answer transcription and PDF text extraction run on your computer.</li>
+          <li>Neither the app nor this website contains advertising, analytics, or behavioral tracking tools.</li>
+        </ul>
+      </section>
+
+      <nav class="toc" aria-labelledby="toc-title">
+        <strong id="toc-title">Contents</strong>
+        <ol>
+          <li><a href="#scope">Scope</a></li>
+          <li><a href="#collect">Information the operator collects</a></li>
+          <li><a href="#local">Information stored on your computer</a></li>
+          <li><a href="#transfer">Information sent outside your computer</a></li>
+          <li><a href="#purpose">Purposes of processing</a></li>
+          <li><a href="#retention">Retention</a></li>
+          <li><a href="#third">Third-party provision and outsourcing</a></li>
+          <li><a href="#overseas">International transfer</a></li>
+          <li><a href="#permissions">Device permissions</a></li>
+          <li><a href="#rights">Your rights</a></li>
+          <li><a href="#destroy">Deletion</a></li>
+          <li><a href="#security">Security measures</a></li>
+          <li><a href="#cookies">Cookies and similar technologies</a></li>
+          <li><a href="#children">Children</a></li>
+          <li><a href="#officer">Privacy officer</a></li>
+          <li><a href="#remedy">Remedies</a></li>
+          <li><a href="#changes">Changes to this policy</a></li>
+        </ol>
+      </nav>
+
+      <h2 id="scope">1. Scope</h2>
+      <p>This policy applies to the Resumate desktop app for macOS and Windows (the “App”) and its introductory website (the “Website”), both distributed by KWAK TAEHOON (the “Operator”). The Operator complies with the Personal Information Protection Act of the Republic of Korea and other applicable laws, and this policy describes how the App actually behaves.</p>
+
+      <h2 id="collect">2. Information the operator collects</h2>
+      <p><strong>The Operator does not collect personal information from App users.</strong></p>
+      <ul>
+        <li>The App has no Operator account or sign-up.</li>
+        <li>The Operator does not run any server that receives your resumes, conversations, uploaded files, voice, or interview records. The App only communicates with the destinations listed in <a href="#transfer">Section 4</a>.</li>
+        <li>The App has no feature that sends usage statistics, error reports, or advertising identifiers to the Operator.</li>
+      </ul>
+      <p>If you contact the Operator by email, the Operator receives your email address and the content of your message in order to reply. This information is used only to handle your inquiry and is deleted without delay once it is resolved. Unless you ask for deletion, it may be kept for up to one year to help with recurring issues.</p>
+      <!-- VERIFY: inquiry email retention (up to 1 year) is an operator policy that cannot be verified from code. -->
+
+      <h2 id="local">3. Information stored on your computer</h2>
+      <p>The following information is stored only on your computer and is never sent to the Operator. The Operator cannot access it.</p>
+      <div class="table-wrap">
+        <table class="stack">
+          <thead>
+            <tr><th scope="col">Item</th><th scope="col">Contents</th><th scope="col">Location</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Item">App database</td>
+              <td data-label="Contents">Conversations with the characters, resumes and resume analyses, project summaries, job postings and company research, interview practice records, app settings</td>
+              <td data-label="Location">macOS: <code>~/Library/Application Support/com.resumate.app/</code><br>Windows: <code>%APPDATA%\com.resumate.app\</code></td>
+            </tr>
+            <tr>
+              <td data-label="Item">Archive</td>
+              <td data-label="Contents">Files you upload, text extracted from them, and documents the App produces (resumes, cover letters, interview record PDFs, etc.)</td>
+              <td data-label="Location">macOS: <code>~/Library/Application Support/resumate/archive/</code><br>Windows: <code>%USERPROFILE%\.resumate\archive\</code></td>
+            </tr>
+            <tr>
+              <td data-label="Item">Screen state</td>
+              <td data-label="Contents">Job posting URLs and text you are typing, some project summary results, character names, and other screen state and settings</td>
+              <td data-label="Location">macOS: <code>~/Library/WebKit/com.resumate.app/</code><br>Windows: <code>%LOCALAPPDATA%\com.resumate.app\</code></td>
+            </tr>
+            <tr>
+              <td data-label="Item">Helper folder</td>
+              <td data-label="Contents">The Claude Code executable if you install it through the App, and an empty working folder used when the AI runs without a project folder</td>
+              <td data-label="Location"><code>~/.resumate/</code> (Windows: <code>%USERPROFILE%\.resumate\</code>)</td>
+            </tr>
+            <tr>
+              <td data-label="Item">Exported files</td>
+              <td data-label="Contents">Copies of documents you choose to download</td>
+              <td data-label="Location">Your Downloads folder</td>
+            </tr>
+            <tr>
+              <td data-label="Item">Claude Code session history</td>
+              <td data-label="Contents">Session records that Claude Code keeps on its own (may include requests the App sent and the responses)</td>
+              <td data-label="Location">Wherever Claude Code stores them (by default <code>~/.claude/</code>)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- VERIFY: Windows WebView2 data folder (%LOCALAPPDATA%\com.resumate.app\) needs confirmation on a real Windows install. macOS paths were confirmed on a development machine. -->
+      <!-- VERIFY: Claude Code session history location (~/.claude/projects/) is Claude Code behavior; confirm the Windows default (%USERPROFILE%\.claude\). -->
+      <p>Folders you choose for project analysis are read in place; the App does not copy them. Voice recordings are converted into a temporary file for transcription and deleted as soon as processing ends. The original recording is held only in memory so you can play it back while using the App, and is not saved.</p>
+
+      <h2 id="transfer">4. Information sent outside your computer</h2>
+      <p>The App communicates directly from your computer only in the cases below. None of them pass through an Operator server.</p>
+      <div class="table-wrap">
+        <table class="stack">
+          <thead>
+            <tr><th scope="col">Recipient</th><th scope="col">What is sent</th><th scope="col">When</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Recipient">Anthropic, PBC<br>(your own Claude Code account)</td>
+              <td data-label="What is sent">Your messages and the material needed to fulfil the request: your current resume, resume analysis, project summaries, job postings and company research, recent interview records, transcripts of voice answers, and the contents of files inside a folder you chose for analysis (except as noted below)</td>
+              <td data-label="When">When you ask a character to analyze, edit, or write something</td>
+            </tr>
+            <tr>
+              <td data-label="Recipient">GitHub, Inc.</td>
+              <td data-label="What is sent">Update checks and update downloads. GitHub receives request information including your IP address and device/app details.</td>
+              <td data-label="When">When the App starts, and when you install an update</td>
+            </tr>
+            <tr>
+              <td data-label="Recipient">Websites you enter</td>
+              <td data-label="What is sent">Requests to load job posting or company pages. Those websites receive ordinary connection information such as your IP address. For company research, up to three additional “about” pages on the same site are loaded.</td>
+              <td data-label="When">When you enter a URL and ask the App to load it</td>
+            </tr>
+            <tr>
+              <td data-label="Recipient">Anthropic, PBC<br>(official Claude Code distribution)</td>
+              <td data-label="What is sent">A request to download the Claude Code executable</td>
+              <td data-label="When">When you choose to install Claude Code from the App</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h3>Files excluded from folder analysis</h3>
+      <p>When you choose a folder to analyze, the AI is blocked from reading secret files such as <code>.env</code>, key files, and <code>.ssh</code>, and from following links that point outside the folder. Your entire home folder and credential folders cannot be chosen as analysis folders.</p>
+      <h3>Claude Code and Anthropic</h3>
+      <p>Signing in, storing and refreshing credentials, and sending AI requests are handled by Anthropic’s official Claude Code. Resumate never receives Claude sign-in codes, tokens, or cookies and does not read credential files; it only checks whether you are signed in. Information sent to Anthropic, and anything Claude Code collects on its own, is governed by the terms between you and Anthropic and by the <a href="https://www.anthropic.com/legal/privacy" rel="noopener">Anthropic Privacy Policy</a>.</p>
+      <!-- VERIFY: scope of Claude Code's own data collection (usage statistics, error reporting, etc.) per Anthropic docs. The App does not set related environment variables such as DISABLE_TELEMETRY (sidecar/claudeBin.ts claudeEnv). -->
+
+      <h3>Website</h3>
+      <p>The Website is hosted on GitHub Pages and uses no cookies, analytics, or external fonts. GitHub logs and stores visitors’ IP addresses for security purposes. Download files are also served by GitHub, which receives connection information when you request a download. GitHub’s handling and retention of this information are governed by the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub Privacy Statement</a>.</p>
+
+      <h2 id="purpose">5. Purposes of processing</h2>
+      <p>Information the App stores on your computer or sends elsewhere is used only to:</p>
+      <ul>
+        <li>Provide the features you request, such as resume diagnosis and editing, project achievement summaries, tailored resumes and cover letters, and interview questions and answer feedback</li>
+        <li>Keep your work so you can continue later</li>
+        <li>Check for and install App updates</li>
+        <li>Reply to your inquiries (if you contact the Operator by email)</li>
+      </ul>
+
+      <h2 id="retention">6. Retention</h2>
+      <ul>
+        <li><strong>Information on your computer</strong>: remains on your computer until you delete it in the App or remove the data folders. The Operator does not hold it.</li>
+        <li><strong>Information sent to Anthropic</strong>: retained for the period set by Anthropic’s privacy policy and your account settings.</li>
+        <li><strong>Inquiry emails</strong>: retained for the period described in Section 2.</li>
+      </ul>
+
+      <h2 id="third">7. Third-party provision and outsourcing</h2>
+      <p>The Operator does not provide your personal information to third parties and does not outsource its processing.</p>
+      <p>When you use AI features, the transfer to Anthropic is not a provision by the Operator; it is your own direct use of Anthropic’s Claude Code service under your own account. Resumate only prepares the request on your computer and hands it to Claude Code.</p>
+
+      <h2 id="overseas">8. International transfer</h2>
+      <p>The Operator does not transfer personal information abroad. However, when you use AI features, information is sent abroad at your request as follows.</p>
+      <div class="table-wrap">
+        <table>
+          <tbody>
+            <tr><th scope="row">Recipient</th><td>Anthropic, PBC (<a href="https://www.anthropic.com/legal/privacy" rel="noopener">privacy contact information</a>)</td></tr>
+            <tr><th scope="row">Country</th><td>United States</td></tr>
+            <tr><th scope="row">Timing and method</th><td>Each time you ask a character to do something, sent from your computer through Claude Code over an encrypted network connection</td></tr>
+            <tr><th scope="row">Items</th><td>The items listed for Anthropic in the Section 4 table. If your resume contains personal information such as your name, contact details, education, or work history, that is sent as well.</td></tr>
+            <tr><th scope="row">Purpose</th><td>Generating the AI responses you request</td></tr>
+            <tr><th scope="row">Retention</th><td>According to Anthropic’s privacy policy and your account settings</td></tr>
+            <tr><th scope="row">How to refuse</th><td>Nothing is sent if you do not use AI features, but analysis, editing, and writing features cannot be used without them. Removing unnecessary personal details such as contact information from your resume before adding it reduces what is sent.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- VERIFY: if a user configures Claude Code to use a different route (e.g., an enterprise cloud provider), the recipient may differ. Written for standard sign-in. -->
+
+      <h2 id="permissions">9. Device permissions</h2>
+      <ul>
+        <li><strong>Microphone</strong>: used only when you record a spoken answer during interview practice with Echo. Each recording is limited to five minutes and is transcribed on your computer by an on-device speech recognition model (Whisper). The audio itself is never sent out; only the transcript is included in AI requests. Text-based practice works without this permission.</li>
+        <li><strong>Files and folders</strong>: the App reads only files and folders you choose or drag in.</li>
+      </ul>
+      <p>The App does not request location, camera, contacts, or system notification permissions.</p>
+
+      <h2 id="rights">10. Your rights</h2>
+      <p>You may at any time access, correct, or delete your personal information and request that its processing be suspended.</p>
+      <ul>
+        <li><strong>Information on your computer</strong>: the Operator does not hold it, so you can view, edit, and delete it directly in the App. See <a href="#destroy">Section 11</a> to remove everything.</li>
+        <li><strong>Information sent to Anthropic</strong>: contact Anthropic directly as described in the <a href="https://www.anthropic.com/legal/privacy" rel="noopener">Anthropic Privacy Policy</a>.</li>
+        <li><strong>Inquiry emails</strong>: request deletion at <a href="mailto:ender4@naver.com">ender4@naver.com</a> and it will be handled without delay.</li>
+      </ul>
+      <p>You may also exercise these rights through a legal representative or an authorized agent.</p>
+
+      <h2 id="destroy">11. Deletion</h2>
+      <p>The only personal information the Operator holds is inquiry email, which is deleted irrecoverably when its retention period ends.</p>
+      <p>You can delete information on your computer yourself. Individual resumes and archive files can be deleted in the App. To remove everything, quit the App and follow the steps below. <strong>Uninstalling the App alone may not remove the data folders.</strong></p>
+      <h3>macOS</h3>
+      <ol>
+        <li>Move Resumate from the Applications folder to the Trash.</li>
+        <li>In Finder, choose <strong>Go → Go to Folder</strong> and delete each of these folders:
+          <ul>
+            <li><code>~/Library/Application Support/com.resumate.app</code></li>
+            <li><code>~/Library/Application Support/resumate</code></li>
+            <li><code>~/Library/WebKit/com.resumate.app</code></li>
+            <li><code>~/Library/Caches/com.resumate.app</code></li>
+            <li><code>~/.resumate</code></li>
+          </ul>
+        </li>
+        <li>Empty the Trash.</li>
+      </ol>
+      <h3>Windows</h3>
+      <ol>
+        <li>Uninstall Resumate from <strong>Settings → Apps</strong>.</li>
+        <li>Enter each of these paths in the File Explorer address bar and delete the folder:
+          <ul>
+            <li><code>%APPDATA%\com.resumate.app</code></li>
+            <li><code>%LOCALAPPDATA%\com.resumate.app</code></li>
+            <li><code>%USERPROFILE%\.resumate</code></li>
+          </ul>
+        </li>
+      </ol>
+      <!-- VERIFY: whether the Windows NSIS uninstaller offers a "delete app data" option, and the %LOCALAPPDATA% path, need confirmation on a real Windows machine. -->
+      <p>Files exported to your Downloads folder must be deleted separately. If you do not use Claude Code for anything else, follow Anthropic’s instructions to sign out of or remove it. Signing out of Claude Code may also sign out other tools that use the same account.</p>
+
+      <h2 id="security">12. Security measures</h2>
+      <ul>
+        <li>On macOS, the App data folder and archive folder are restricted so that only the current user can access them.</li>
+        <li>The App’s internal communication stays on the same computer (127.0.0.1) and requires an authentication value generated fresh at each launch.</li>
+        <li>Temporary files for PDF and voice processing are readable only by the current user and are deleted after processing.</li>
+        <li>Tool permissions prevent the AI from reading secret files inside an analysis folder, and the AI is not given permission to modify files or run commands.</li>
+        <li>Updates are installed only after their signatures are verified.</li>
+        <li>When Claude Code is installed through the App, it is downloaded from the official distribution and its checksum is verified.</li>
+      </ul>
+      <p>Information on your computer is not separately encrypted by the App. We recommend using your operating system’s disk encryption (macOS FileVault, Windows BitLocker, etc.) together with a locked user account.</p>
+
+      <h2 id="cookies">13. Cookies and similar technologies</h2>
+      <p>Neither the Website nor the App uses cookies or similar tracking technologies to identify you or analyze your behavior. The App uses its internal storage to remember screen state, but that information stays on your computer.</p>
+
+      <h2 id="children">14. Children</h2>
+      <p>The App is intended for adults preparing for employment and is not directed at children under 14. The Operator does not collect children’s personal information. The Claude Code account required for AI features is subject to the age requirements set by Anthropic.</p>
+
+      <h2 id="officer">15. Privacy officer</h2>
+      <div class="table-wrap">
+        <table>
+          <tbody>
+            <tr><th scope="row">Name</th><td>KWAK TAEHOON (Operator)</td></tr>
+            <tr><th scope="row">Contact</th><td><a href="mailto:ender4@naver.com">ender4@naver.com</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Please send privacy questions, complaints, or requests for remedies to the contact above. They will be answered and handled without delay.</p>
+
+      <h2 id="remedy">16. Remedies</h2>
+      <p>For reports or consultation about privacy infringement, you may contact the following Korean authorities:</p>
+      <ul>
+        <li>Personal Information Infringement Report Center: 118 (in Korea) · <a href="https://privacy.kisa.or.kr" rel="noopener">privacy.kisa.or.kr</a></li>
+        <li>Personal Information Dispute Mediation Committee: 1833-6972 · <a href="https://www.kopico.go.kr" rel="noopener">www.kopico.go.kr</a></li>
+        <li>Supreme Prosecutors’ Office: 1301 (in Korea) · <a href="https://www.spo.go.kr" rel="noopener">www.spo.go.kr</a></li>
+        <li>Korean National Police Agency: 182 (in Korea) · <a href="https://ecrm.police.go.kr" rel="noopener">ecrm.police.go.kr</a></li>
+      </ul>
+
+      <h2 id="changes">17. Changes to this policy</h2>
+      <p>This policy is effective as of October 12, 2026. If it is revised because of changes in law or in how the App works, the change will be posted on this page at least 7 days before it takes effect, or at least 30 days before for material changes that are unfavorable to users.</p>
+      <p>The Korean version is available at <a href="../privacy.html" hreflang="ko" lang="ko">개인정보처리방침</a>. If the two versions differ, the Korean version prevails.</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>© 2026 Resumate · Operated by KWAK TAEHOON</p>
+      <nav aria-label="Footer">
+        <a href="../index.html" hreflang="ko">Home (Korean)</a>
+        <a href="../privacy.html" hreflang="ko" lang="ko">개인정보처리방침</a>
+        <a href="mailto:ender4@naver.com">Contact ender4@naver.com</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
