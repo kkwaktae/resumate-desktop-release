@@ -1,14 +1,14 @@
 {
-  "tag": "v0.2.21",
-  "publishedAt": "2026-11-04T11:26:58Z",
+  "tag": "v0.2.22",
+  "publishedAt": "2026-11-05T03:30:33Z",
   "preview": false,
   "macosNotarized": true,
-  "url": "https://github.com/kkwaktae/resumate-desktop-release/releases/tag/v0.2.21",
+  "url": "https://github.com/kkwaktae/resumate-desktop-release/releases/tag/v0.2.22",
   "platforms": {
     "mac": {
       "name": "Resumate-macOS.dmg",
-      "url": "https://github.com/kkwaktae/resumate-desktop-release/releases/download/v0.2.21/Resumate-macOS.dmg",
-      "size": 238643088
+      "url": "https://github.com/kkwaktae/resumate-desktop-release/releases/download/v0.2.22/Resumate-macOS.dmg",
+      "size": 238634263
     }
   }
 }
