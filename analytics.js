@@ -1,7 +1,7 @@
 (() => {
   // Website only: never load Analytics in the desktop app, previews, or the old mirror.
   if (location.hostname !== "resumate.sevihcra.com") return;
-  const id = "G-T0ETS50LR7";
+  const id = "G-1B821WM92Y";
   const key = "resumate-analytics-consent-v1";
   const english = document.documentElement.lang === "en";
   let consent = null;
