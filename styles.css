@@ -350,3 +350,13 @@ h2 { font-size: clamp(28px, 3.1vw, 42px); line-height: 1.45; letter-spacing: -.0
     font-size: 12px;
   }
 }
+
+/* Optional analytics controls share the site's type and colors. */
+.analytics-choice { position: fixed; inset: auto 20px 20px; z-index: 40; max-height: 70vh; overflow: auto; display: flex; align-items: center; gap: 24px; max-width: 980px; margin-inline: auto; padding: 20px 24px; background: #fffdf8; color: var(--ink); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 8px 40px #0002; font-size: 14px; line-height: 1.7; }
+.analytics-choice[hidden] { display: none; }
+.analytics-choice p { margin: 4px 0 0; }
+.analytics-choice a { color: inherit; text-decoration: underline; }
+.analytics-actions { display: flex; gap: 10px; flex-shrink: 0; }
+.analytics-actions button { min-height: 44px; padding: 8px 16px; border: 1px solid var(--ink); background: #fffdf8; color: var(--ink); border-radius: 7px; font: inherit; cursor: pointer; }
+.analytics-settings { border: 0; padding: 0; background: none; color: inherit; text-decoration: underline; font: inherit; cursor: pointer; }
+@media (max-width: 640px) { .analytics-choice { inset: auto 12px 12px; padding: 16px; flex-direction: column; align-items: stretch; gap: 12px; } .analytics-actions button { flex: 1; } }

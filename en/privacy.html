@@ -16,13 +16,14 @@
   <link rel="alternate" hreflang="ko" href="../privacy.html">
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
   <link rel="stylesheet" href="../styles.css">
+  <script defer src="../analytics.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="topbar">
     <div class="wrap">
-      <a class="brand" href="../index.html" aria-label="Resumate home">
+      <a class="brand" href="../" aria-label="Resumate home">
         <img src="../assets/icon-256.png" alt="" width="28" height="28">
         Resumate
       </a>
@@ -35,7 +36,7 @@
   <main id="main" class="doc">
     <div class="wrap">
       <h1>Privacy Policy</h1>
-      <p class="meta">Effective November 4, 2026 · Operated by KWAK TAEHOON</p>
+      <p class="meta">Updated November 7, 2026 · Operated by KWAK TAEHOON</p>
 
       <section class="summary" aria-labelledby="summary-title">
         <h2 id="summary-title">At a glance</h2>
@@ -44,7 +45,7 @@
           <li>What you create in the app is stored <strong>on your own computer</strong>.</li>
           <li>When you use AI features, the material needed for the request is sent to Anthropic (United States) <strong>through your own Claude Code account</strong>.</li>
           <li>Voice-answer transcription and PDF text extraction run on your computer.</li>
-          <li>Neither the app nor this website contains advertising, analytics, or behavioral tracking tools.</li>
+          <li>The App has no advertising or analytics tools. Optional Website analytics runs only after you consent.</li>
         </ul>
       </section>
 
@@ -82,6 +83,7 @@
         <li>The App has no feature that sends usage statistics, error reports, or advertising identifiers to the Operator.</li>
       </ul>
       <p>If you contact the Operator by email, the Operator receives your email address and the content of your message in order to reply. This information is used only to handle your inquiry and is deleted without delay once it is resolved. Unless you ask for deletion, it may be kept for up to one year to help with recurring issues.</p>
+      <p>If you consent to Website analytics, Google Analytics collects visit statistics. See <a href="#website-analytics">the Website analytics notice</a> for data and refusal controls.</p>
       <!-- VERIFY: inquiry email retention (up to 1 year) is an operator policy that cannot be verified from code. -->
 
       <h2 id="local">3. Information stored on your computer</h2>
@@ -167,7 +169,18 @@
       <!-- VERIFY: scope of Claude Code's own data collection (usage statistics, error reporting, etc.) per Anthropic docs. The App does not set related environment variables such as DISABLE_TELEMETRY (sidecar/claudeBin.ts claudeEnv). -->
 
       <h3>Website</h3>
-      <p>The Website is hosted on GitHub Pages and uses no cookies, analytics, or external fonts. GitHub logs and stores visitors’ IP addresses for security purposes. Download files are also served by GitHub, which receives connection information when you request a download. GitHub’s handling and retention of this information are governed by the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub Privacy Statement</a>.</p>
+      <p>The Website is hosted on GitHub Pages and uses no external fonts. Google Analytics is not loaded and no analytics information is sent before you consent to optional Website analytics. GitHub logs and stores visitors’ IP addresses for security purposes. Download files are also served by GitHub, which receives connection information when you request a download. GitHub’s handling and retention of this information are governed by the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub Privacy Statement</a>.</p>
+
+      <h3 id="website-analytics">Optional Website analytics and overseas processing</h3>
+      <p>This notice was added on November 7, 2026. Website analytics starts only after you select “Allow analytics”. Refusing or withdrawing consent does not affect the Website or downloads.</p>
+      <ul>
+        <li><strong>Provider and purpose</strong>: Google LLC and Google Analytics service affiliates process Website traffic, usage and download-click statistics. See <a href="https://policies.google.com/privacy?hl=en" rel="noopener">Google’s privacy policy and contact information</a>.</li>
+        <li><strong>Data</strong>: random cookie identifiers, visit times, page URLs and titles, referring site domains, browser, operating system and device information, approximate location, clicks to installation instructions and installer downloads, and the selected OS. Network requests expose your IP address to Google; Google states that GA4 does not log or store individual IP addresses.</li>
+        <li><strong>Excluded</strong>: resumes, cover letters, conversations, files, recordings and App contact details are not sent. The tag removes page query strings and fragments and referrer paths. Google signals and advertising personalization are disabled.</li>
+        <li><strong>Countries, timing and method</strong>: after consent, your browser sends information over HTTPS on page visits and clicks. Processing may take place in the United States and other <a href="https://www.google.com/about/datacenters/locations/" rel="noopener">Google data center countries</a>; no single storage country is specified.</li>
+        <li><strong>Retention</strong>: GA4 user- and event-level retention is set to 2 months. Aggregated reports may remain separately. Analytics cookies last up to 60 days from creation. Your choice stays in this browser’s site storage until you change it or clear that storage.</li>
+        <li><strong>Refusal and withdrawal</strong>: select “Decline” under “Analytics preferences” in the footer to stop subsequent analytics and delete this site’s analytics cookies. This does not automatically erase data already sent; contact the privacy officer below for related requests. You can also clear browser site data or use the <a href="https://tools.google.com/dlpage/gaoptout?hl=en" rel="noopener">Google Analytics opt-out tool</a>.</li>
+      </ul>
 
       <h2 id="purpose">5. Purposes of processing</h2>
       <p>Information the App stores on your computer or sends elsewhere is used only to:</p>
@@ -176,6 +189,7 @@
         <li>Keep your work so you can continue later</li>
         <li>Check for and install App updates</li>
         <li>Reply to your inquiries (if you contact the Operator by email)</li>
+        <li>Analyze Website traffic and download clicks and improve the site, only with the visitor’s optional consent</li>
       </ul>
 
       <h2 id="retention">6. Retention</h2>
@@ -183,14 +197,15 @@
         <li><strong>Information on your computer</strong>: remains on your computer until you delete it in the App or remove the data folders. The Operator does not hold it.</li>
         <li><strong>Information sent to Anthropic</strong>: retained for the period set by Anthropic’s privacy policy and your account settings.</li>
         <li><strong>Inquiry emails</strong>: retained for the period described in Section 2.</li>
+        <li><strong>Optional Website analytics</strong>: follows the periods and controls in <a href="#website-analytics">Section 4</a>.</li>
       </ul>
 
       <h2 id="third">7. Third-party provision and outsourcing</h2>
-      <p>The Operator does not provide your personal information to third parties and does not outsource its processing.</p>
+      <p>The Operator does not outsource the processing of App resumes, conversations or files. Google Analytics processes optional Website analytics after visitor consent; the provider, purpose, data and retention are described in <a href="#website-analytics">Section 4</a>.</p>
       <p>When you use AI features, the transfer to Anthropic is not a provision by the Operator; it is your own direct use of Anthropic’s Claude Code service under your own account. Resumate only prepares the request on your computer and hands it to Claude Code.</p>
 
       <h2 id="overseas">8. International transfer</h2>
-      <p>The Operator does not transfer personal information abroad. However, when you use AI features, information is sent abroad at your request as follows.</p>
+      <p>Overseas processing of optional Website analytics is described in <a href="#website-analytics">Section 4</a>. When you use App AI features, information is sent abroad at your request as follows.</p>
       <div class="table-wrap">
         <table>
           <tbody>
@@ -218,12 +233,12 @@
       <ul>
         <li><strong>Information on your computer</strong>: the Operator does not hold it, so you can view, edit, and delete it directly in the App. See <a href="#destroy">Section 11</a> to remove everything.</li>
         <li><strong>Information sent to Anthropic</strong>: contact Anthropic directly as described in the <a href="https://www.anthropic.com/legal/privacy" rel="noopener">Anthropic Privacy Policy</a>.</li>
-        <li><strong>Inquiry emails</strong>: request deletion at <a href="mailto:ender4@naver.com">ender4@naver.com</a> and it will be handled without delay.</li>
+        <li><strong>Inquiry emails</strong>: request deletion at <a href="mailto:taehoon8206@gmail.com">taehoon8206@gmail.com</a> and it will be handled without delay.</li>
       </ul>
       <p>You may also exercise these rights through a legal representative or an authorized agent.</p>
 
       <h2 id="destroy">11. Deletion</h2>
-      <p>The only personal information the Operator holds is inquiry email, which is deleted irrecoverably when its retention period ends.</p>
+      <p>Inquiry email is deleted irrecoverably when its retention period ends. Retention and withdrawal for optional Website analytics are described in <a href="#website-analytics">Section 4</a>.</p>
       <p>You can delete information on your computer yourself. Individual resumes and archive files can be deleted in the App. To remove everything, quit the App and follow the steps below. <strong>Uninstalling the App alone may not remove the data folders.</strong></p>
       <h3>macOS</h3>
       <ol>
@@ -265,7 +280,7 @@
       <p>Information on your computer is not separately encrypted by the App. We recommend using your operating system’s disk encryption (macOS FileVault, Windows BitLocker, etc.) together with a locked user account.</p>
 
       <h2 id="cookies">13. Cookies and similar technologies</h2>
-      <p>Neither the Website nor the App uses cookies or similar tracking technologies to identify you or analyze your behavior. The App uses its internal storage to remember screen state, but that information stays on your computer.</p>
+      <p>The App uses no analytics cookies. The Website uses Google Analytics cookies named _ga and starting with _ga_ only after consent. Your choice is saved in site storage and can be changed under “Analytics preferences” in the footer. App storage used to remember screen state stays on your computer.</p>
 
       <h2 id="children">14. Children</h2>
       <p>The App is intended for adults preparing for employment and is not directed at children under 14. The Operator does not collect children’s personal information. The Claude Code account required for AI features is subject to the age requirements set by Anthropic.</p>
@@ -275,7 +290,7 @@
         <table>
           <tbody>
             <tr><th scope="row">Name</th><td>KWAK TAEHOON (Operator)</td></tr>
-            <tr><th scope="row">Contact</th><td><a href="mailto:ender4@naver.com">ender4@naver.com</a></td></tr>
+            <tr><th scope="row">Contact</th><td><a href="mailto:taehoon8206@gmail.com">taehoon8206@gmail.com</a></td></tr>
           </tbody>
         </table>
       </div>
@@ -292,7 +307,7 @@
 
       <h2 id="changes">17. Changes to this policy</h2>
       <p>This policy is effective as of October 12, 2026. If it is revised because of changes in law or in how the App works, the change will be posted on this page at least 7 days before it takes effect, or at least 30 days before for material changes that are unfavorable to users.</p>
-      <p>The Korean version is available at <a href="../privacy.html" hreflang="ko" lang="ko">개인정보처리방침</a>. If the two versions differ, the Korean version prevails.</p>
+      <p>The Korean version is available at <a href="../privacy.html" hreflang="ko" lang="ko">개인정보처리방침</a>. If the two versions differ, the Korean version prevails. The <a href="../terms.html">Terms of Service</a> are available in Korean only.</p>
     </div>
   </main>
 
@@ -300,9 +315,10 @@
     <div class="wrap">
       <p>© 2026 Resumate · Operated by KWAK TAEHOON</p>
       <nav aria-label="Footer">
-        <a href="../index.html" hreflang="ko">Home (Korean)</a>
+        <a href="../" hreflang="ko">Home (Korean)</a>
         <a href="../privacy.html" hreflang="ko" lang="ko">개인정보처리방침</a>
-        <a href="mailto:ender4@naver.com">Contact ender4@naver.com</a>
+        <a href="../terms.html">Terms of Service</a>
+        <a href="mailto:taehoon8206@gmail.com">Contact taehoon8206@gmail.com</a>
       </nav>
     </div>
   </footer>

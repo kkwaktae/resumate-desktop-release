@@ -15,6 +15,8 @@ function renderRelease() {
   const available = validInstaller(asset, os);
   const link = document.querySelector("[data-download]");
   link.href = available ? asset.url : RELEASES_URL;
+  if (available) link.dataset.downloadPlatform = os;
+  else delete link.dataset.downloadPlatform;
   link.textContent = available ? `${label()} 다운로드 ↓` : "공개 릴리스 확인하기 ↗";
   document.querySelector("[data-platform-name]").textContent = label();
   document.querySelector("[data-release-status]").textContent = available
